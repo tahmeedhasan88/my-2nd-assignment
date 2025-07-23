@@ -1,0 +1,119 @@
+.logo{
+    width: 8.43rem;
+    height: 5.12rem;
+}
+
+.options li {
+    list-style: none;
+}
+
+.options a {
+    text-decoration: none;
+    color: #8987A1;
+    font-family:Arial, Helvetica, sans-serif
+}
+.options ul{
+    display: flex;
+justify-content: space-between;
+gap: 40px;
+}
+.nav{
+    width: 71.25rem;
+    height: 4.43rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.black{
+    color: black;
+}
+.banner-text{
+    width: 35.62rem;
+    height: 18.68rem;
+}
+.big-font{
+    font-family: "Noto Serif", serif;
+    font-weight: 600;
+    font-size: 4rem;
+    margin: 10px;
+}
+
+.orange{
+    color: #E95A08;
+}
+
+.banner-desc{
+    font-family: "Inter", sans-serif;
+color: #000000;
+margin-left: 10px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    width: 71.25rem;
+    margin: auto;
+    margin-top: 100px;
+}
+.banner-img{
+    width: 35.69rem;
+    height: 22.18rem;
+}
+.title{
+    font-family: "Noto Serif", serif;
+    font-size: 3.12rem;
+    margin-bottom: 10px;
+}
+.text-area{
+    width:71.25rem;
+    height: 8.62rem;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.card{
+    width: 16.87rem;
+    height: 30.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.card-img{
+    width: 100%;
+    height: 20.12rem;
+}
+.card-title{
+font-family: "Inter", sans-serif;
+font-size: 1.37rem;
+margin: 5px;
+font-weight: 700;
+}
+
+.btn-primary{
+    width: 100%;
+    height: 50px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    background-color: #E95A08;
+    color: #FFFF;
+    border-style: none;
+    margin-top: 10px;
+}
+.low-opacity{
+    font-weight:300 ;
+    color: #111111;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin:100px;
+}
