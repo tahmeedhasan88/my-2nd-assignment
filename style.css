@@ -45,8 +45,19 @@ gap: 40px;
 
 .banner-desc{
     font-family: "Inter", sans-serif;
-color: #000000;
+color:#8987A1;
 margin-left: 10px;
+margin-right: 37px;
+font-size: 1.37rem;
+}
+.banner-desc2{
+    font-family: "Inter", sans-serif;
+color:#8987A1;
+margin-left: 10px;
+margin-right: 37px;
+font-size: 1.37rem;
+text-align: center;
+
 }
 
 .banner{
@@ -116,4 +127,67 @@ font-weight: 700;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin:100px;
+    margin-bottom: 200px;
 }
+
+.flower-store{
+    width: 33.75rem;
+    height: 37.31rem;
+}
+.badge{
+    width: 17.87rem;
+    height: 17.87rem;
+    position: absolute;
+    top: 119rem;
+    left: 450px;
+    
+}
+.container-texts{
+    width: 33.75rem;
+    height: 32.56rem;
+}
+.flower-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 71.25rem;
+    height: 37.31rem;
+    margin: auto;
+}
+
+.flower-plants{
+    font-family: "Noto Serif", serif;
+    font-size: 3.12rem;
+
+}
+.points{
+    font-family: "Inter", sans-serif;
+    font-size: 1.37rem;
+    color: #8987A1;
+}
+
+.latest-deal{
+    width:55.5rem;
+    height: 8.25rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.deal-font{
+    margin-bottom: 5px;
+     font-family: "Noto Serif", serif;
+     font-size: 3.12rem;
+
+}
+.deal-desc{
+    margin: 70px;
+     margin-top: 5px;
+     text-align: center;
+     font-family: "Inter", sans-serif;
+    font-size: 1.37rem;
+    color: #8987A1;
+}
+
+.plants-imgs
