@@ -377,3 +377,69 @@ align-items: center;
     margin: auto;
     margin-top: 100px;
 }
+
+
+
+
+@media screen and (max-width: 576px)   {
+    .small{
+        display: none;
+    }
+    
+.nav{
+    width: 56rem;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.banner{
+    flex-direction: column-reverse;
+}
+.banner-img{
+    width: 1200px;
+    height: 700px;
+}
+.banner-text{
+    width: 50rem;
+    margin-top: 40px;
+    margin-left: -270px;
+}
+.text-area{
+    width: 42.25rem;
+    margin-left: 170px;
+}
+.cards{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-left: 190px;
+}
+.badge{
+    display: none;
+}
+.flower-container{
+    flex-direction: column;
+    margin-bottom: 600px;
+    margin-left: -80px;
+}
+.points{
+    margin-left: -20px;
+}
+.latest-deal{
+    width: 45rem;
+    margin-left: 125px;
+}
+
+.flower-mn-box{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+}
