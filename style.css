@@ -494,7 +494,7 @@ align-items: center;
 .cards{
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
-    margin-left: 190px;
+    margin-left: 90px;
 }
 .badge{
     display: none;
@@ -502,14 +502,14 @@ align-items: center;
 .flower-container{
     flex-direction: column;
     margin-bottom: 600px;
-    margin-left: -80px;
+    margin-left: -175px;
 }
 .points{
     margin-left: -20px;
 }
 .latest-deal{
     width: 45rem;
-    margin-left: 125px;
+    margin-left: 35px;
 }
 
 .flower-mn-box{
