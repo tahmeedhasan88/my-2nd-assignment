@@ -287,6 +287,8 @@ font-weight: 700;
 
 .cover-field{
     background-image: url(images/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 33.31rem;
     width:  90.25rem;
     margin: auto;
@@ -431,6 +433,28 @@ align-items: center;
 
 .flower-mn-box{
     flex-direction: column;
+    margin-left: 490px;
+}
+.bloom{
+    margin-bottom: 50px;
+}
+.cover-field{
+    width: 62.25rem;
+}
+
+.footer{
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
 }
 
 
