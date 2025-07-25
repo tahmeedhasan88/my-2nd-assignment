@@ -378,6 +378,7 @@ align-items: center;
     align-items: center;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
@@ -447,7 +448,9 @@ align-items: center;
     flex-direction: column;
     gap: 50px;
     align-items: flex-start;
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
 }
 
 
@@ -456,15 +459,75 @@ align-items: center;
 
 
 
+
+
+
+@media screen and (max-width: 768px)   {
+
+    .small{
+        display: none;
+    }
+    
+.nav{
+    width: 42rem;
+    margin-left: 55px;
+    margin-top: 40px;
 }
 
+.banner{
+    flex-direction: column-reverse;
+}
+.banner-img{
+    width: 700px;
+    height: 600px;
+    margin-right: 230px;
+}
+.banner-text{
+    width: 45rem;
+    margin-top: 40px;
+    margin-left: -340px;
+}
+.text-area{
+    width: 42.25rem;
+    margin-left: 70px;
+}
+.cards{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-left: 190px;
+}
+.badge{
+    display: none;
+}
+.flower-container{
+    flex-direction: column;
+    margin-bottom: 600px;
+    margin-left: -80px;
+}
+.points{
+    margin-left: -20px;
+}
+.latest-deal{
+    width: 45rem;
+    margin-left: 125px;
+}
 
+.flower-mn-box{
+    flex-direction: column;
+    margin-left: 490px;
+}
+.bloom{
+    margin-bottom: 50px;
+}
+.cover-field{
+    width: 62.25rem;
+}
 
-
-
-
-
-
-
-
+.footer{
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
 }
