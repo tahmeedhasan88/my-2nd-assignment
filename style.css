@@ -393,7 +393,7 @@ align-items: center;
 .nav{
     width: 56rem;
     margin-left: 40px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .banner{
@@ -471,7 +471,7 @@ align-items: center;
 .nav{
     width: 42rem;
     margin-left: 55px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .banner{
@@ -514,14 +514,21 @@ align-items: center;
 
 .flower-mn-box{
     flex-direction: column;
-    margin-left: 490px;
+    margin-left: 375px;
 }
 .bloom{
     margin-bottom: 50px;
 }
 .cover-field{
-    width: 62.25rem;
+    width: 50.25rem;
 }
+.input{
+    width: 400px;
+}
+
+
+
+
 
 .footer{
     flex-direction: column;
