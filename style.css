@@ -326,7 +326,6 @@ font-weight: 700;
 
 }
 .input-field{
-    
     margin-top: 30px;
 }
 .footer-logo{
@@ -384,87 +383,13 @@ align-items: center;
 
 
 
-@media screen and (max-width: 576px)   {
-
-    .small{
-        display: none;
-    }
-    
-.nav{
-    width: 56rem;
-    margin-left: 40px;
-    margin-top: 50px;
-}
-
-.banner{
-    flex-direction: column-reverse;
-}
-.banner-img{
-    width: 850px;
-    height: 700px;
-}
-.banner-text{
-    width: 50rem;
-    margin-top: 40px;
-    margin-left: -270px;
-}
-.text-area{
-    width: 42.25rem;
-    margin-left: 170px;
-}
-.cards{
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
-    margin-left: 190px;
-}
-.badge{
-    display: none;
-}
-.flower-container{
-    flex-direction: column;
-    margin-bottom: 600px;
-    margin-left: -80px;
-}
-.points{
-    margin-left: -20px;
-}
-.latest-deal{
-    width: 45rem;
-    margin-left: 125px;
-}
-
-.flower-mn-box{
-    flex-direction: column;
-    margin-left: 490px;
-}
-.bloom{
-    margin-bottom: 50px;
-}
-.cover-field{
-    width: 62.25rem;
-}
-
-.footer{
-    flex-direction: column;
-    gap: 50px;
-    align-items: flex-start;
-    margin-left: 40px;
-    margin-bottom: 100px;
-}
-}
 
 
 
 
+@media screen and (max-width: 430px)   {
 
-
-
-
-
-
-@media screen and (max-width: 768px)   {
-
-    .small{
+.small{
         display: none;
     }
     
